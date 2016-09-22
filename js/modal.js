@@ -30,4 +30,8 @@ $(function(){
       $('.modalcontent').removeClass('momo');
       $('.modal-overlay2').remove();
     })
+    $('#unko').click(function() {
+      $('.modalcontent22').remove();
+      $('.modal-overlay2').remove();
+    });
 });
